@@ -1,0 +1,60 @@
+.navbar-brand {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: white;
+    cursor: default;
+    transition: 0.3s;
+    z-index: 2;
+
+}
+
+
+.navbar-brand:hover {
+    color: #00abf0;
+}
+
+@media(min-width:992px) {
+    .navbar-brand {
+        font-size: 45px;
+        letter-spacing: 1px;
+    }
+}
+
+.nav-link {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    transition: .3s;
+    font-weight: 550;
+    color: white;
+    z-index: 2;
+}
+
+.nav-link:hover {
+    color: #00abf0;
+}
+
+.navbar-nav {
+    gap: 5px;
+}
+
+@media(min-width:992px) {
+    .navbar-nav {
+        gap: 50px;
+    }
+}
+
+.navbar-toggler {
+    color: #00abf0;
+}
