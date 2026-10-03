@@ -410,20 +410,18 @@ header {
     height: 320px;
     flex-shrink: 0;
 }
-
-.pic {
+ .pic {
     width: 100%;
     height: 100%;
-    /* Show full face including hair: cover + shift down slightly */
-    transform: scale(1.3);
     object-fit:cover;
-    object-position: center 30%;
+    object-position: 62% 25%;
+    transform: translateX(12px) scale(1.35);
     display: block;
     transition: transform 0.5s ease;
 }
 
 .about-img-wrapper:hover .pic {
-    transform: scale(1.2);
+    transform: translateX(12px) scale(1.23);
 }
 
 /* About text — ORIGINAL font-size (38px on desktop) */

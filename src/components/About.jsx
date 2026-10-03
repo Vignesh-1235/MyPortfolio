@@ -84,7 +84,7 @@ const About = () => {
             <div className="row justify-content-center" id="row">
                 <div className="col-12 d-flex justify-content-center mb-5" id="img-contain">
                     <div className="about-img-wrapper" ref={imgRef}>
-                        <img src="pp1.jpg" alt="Vignesh V" className="pic" />
+                        <img src="pfp.jpg" alt="Vignesh V" className="pic" />
                     </div>
                 </div>
                 <div className="col-12 col-lg-10 text-center">
